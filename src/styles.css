@@ -1,0 +1,66 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+}
+
+.container {
+    max-width: 700px;
+    margin: 2rem auto;
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+}
+
+h1 {
+    text-align: center;
+}
+
+.form-row {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.input {
+    flex: 1;
+    padding: 8px;
+    font-size: 1rem;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    background: green;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.error {
+    color: red;
+    font-size: 0.9rem;
+}
+
+.todo-list {
+    list-style: none;
+    padding: 0;
+}
+
+.todo-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    color: black;
+    border-bottom: 1px solid #ddd;
+}
+
+.delete-btn {
+    background: transparent;
+    border: none;
+    color: red;
+    cursor: pointer;
+}
