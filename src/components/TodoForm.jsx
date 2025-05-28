@@ -5,6 +5,7 @@ import validator from 'validator';
 import { Plus } from 'lucide-react';
 import JoditEditor from 'jodit-react';
 import { toast } from 'react-toastify';
+import 'jodit/es2021/jodit.min.css';
 
 const schema = Yup.object().shape({
     title: Yup.string().required('Title is required'),

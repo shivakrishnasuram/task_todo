@@ -4,6 +4,11 @@ body {
     padding: 0;
     background: #f4f4f4;
 }
+.jodit-container {
+  color: #000 !important;
+  background: #fff !important;
+}
+
 
 .container {
     max-width: 700px;
